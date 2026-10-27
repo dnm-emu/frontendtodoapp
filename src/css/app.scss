@@ -1,0 +1,19 @@
+body {
+  font-family: 'Roboto', system-ui, sans-serif;
+}
+
+.daylist-shell {
+  background: linear-gradient(180deg, rgba(15, 118, 110, 0.08), transparent 220px);
+}
+
+.body--dark .daylist-shell {
+  background: linear-gradient(180deg, rgba(15, 118, 110, 0.16), transparent 220px);
+}
+
+.task-card--done {
+  opacity: 0.62;
+}
+
+.stat-chip {
+  min-width: 120px;
+}

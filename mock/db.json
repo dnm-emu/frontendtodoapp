@@ -1,0 +1,49 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "user@test.com",
+      "password": "123456",
+      "name": "Студент"
+    },
+    {
+      "id": 2,
+      "email": "admin@test.com",
+      "password": "admin123",
+      "name": "Преподаватель"
+    }
+  ],
+  "todos": [
+    {
+      "id": 1,
+      "userId": 1,
+      "title": "Разобрать Pinia и stores",
+      "completed": false,
+      "createdAt": "2026-09-12T08:20:00.000Z",
+      "priority": "high",
+      "tagIds": [1]
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "title": "Подключить guards в Vue Router",
+      "completed": true,
+      "createdAt": "2026-09-13T14:05:00.000Z",
+      "priority": "normal",
+      "tagIds": [1]
+    },
+    {
+      "id": 3,
+      "userId": 2,
+      "title": "Проверить mock JSON Server",
+      "completed": false,
+      "createdAt": "2026-09-14T09:40:00.000Z",
+      "priority": "low",
+      "tagIds": [2]
+    }
+  ],
+  "tags": [
+    { "id": 1, "name": "курс", "color": "teal" },
+    { "id": 2, "name": "сдача", "color": "orange" }
+  ]
+}
